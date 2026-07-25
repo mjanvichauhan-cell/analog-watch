@@ -48,8 +48,8 @@ h1{
     margin: auto;
     border:1px solid red;
     background-color: red;
-    height:40vw;
-    width:40vw;
+    height:30vw;
+    width:30vw;
     background: url("clockimg.jpg") no-repeat;
     background-position: center;
     background-size: 130%; 
