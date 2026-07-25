@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: rgba(10, 9, 9, 0.87);
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fffcfc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+#dateTime{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#time{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3f0f0;
+}
+
+#date{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4efef;
+}
+
+#clockContainer{
+    margin: auto;
+    border:1px solid red;
+    background-color: red;
+    height:40vw;
+    width:40vw;
+    background: url("../projectdocs/clockimg.jpg") no-repeat;
+    background-position: center;
+    background-size: 130%; 
+    border-radius: 50%; 
+    overflow: hidden;
+    position:relative;
+}
+
+#hour,#minute,#second{
+    position:absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour{
+    position: absolute;
+    width: 2%;
+    height: 22%;
+    background: black;
+    top: 28%;
+    left: 49%;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+#minute{
+    position: absolute;
+    width: 1.5%;
+    height: 30%;
+    background: #444;
+    top: 20%;
+    left: 49.25%;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+#second{
+    position: absolute;
+    width: 1%;
+    height: 35%;
+    background: red;
+    top: 15%;
+    left: 49.5%;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
