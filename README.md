@@ -2,6 +2,9 @@
 
 A responsive, real-time analog clock built with **HTML, CSS, and vanilla JavaScript**. It displays a rotating hour, minute, and second hand over a clock face image, along with a live digital time and date readout below it.
 
+#Analog-Clock
+![Analog-clock](analog.png)
+
 ## Features
 
 - **Real-time analog display** — hour, minute, and second hands rotate continuously using JavaScript's `Date` object and CSS `transform: rotate()`.
