@@ -50,7 +50,7 @@ h1{
     background-color: red;
     height:40vw;
     width:40vw;
-    background: url("../projectdocs/clockimg.jpg") no-repeat;
+    background: url("clockimg.jpg") no-repeat;
     background-position: center;
     background-size: 130%; 
     border-radius: 50%; 
